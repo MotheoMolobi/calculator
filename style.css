@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    margin: 0px;
+}
+
+.calc-container{
+    border: 5px solid black;
+    border-radius: 5%;
+    margin-top: 5px;
+    width: 450px;
+    height: 600px;
+    padding: 30px 20px 20px 20px;
+}
+
+#screen-display{
+    border: 5px solid black;
+    border-radius: 7px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.top-btns-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.top-btns-container button{
+    width: 250px;
+    height: 70px;
+    border: 5px solid black;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Jaro", sans-serif;
+}
+
+.top-btns-container button:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+#clear-btn{
+    background-color: lightcoral;
+}
+#del-btn{
+    background-color: lightsalmon;
+}
+
+.btns-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    gap: 15px;
+    margin: 0px;
+}
+.btns-container button{
+    height: 80px;
+    width: 90px;
+    padding: 20px;
+    border: 5px solid black;
+    font-weight: bold;
+    font-family: "Jaro", sans-serif;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns-container button:hover{
+    opacity: 75%;
+}
+#div-btn, #multi-btn, #sub-btn, #add-btn{
+    background-color: lightblue;
+    font-size: 35px;
+}
+#eql-btn{
+    background-color: lightsalmon;
+    font-size: 35px;
+
+}
